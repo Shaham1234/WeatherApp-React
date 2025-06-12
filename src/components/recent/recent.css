@@ -1,0 +1,151 @@
+.recentPage {
+  margin-top: 16px;
+  color: white;
+}
+
+.recentHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  color: #ffffffd9;
+  font-size: 11px;
+}
+
+.clearAllBtn {
+  background: none;
+  border: none;
+  color: #ffffffde;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.recentList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #ffffff1a;
+}
+
+.recentItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.recentCityDetails {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.recentCityName {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.highlightBackGround {
+  background-color: #ffffff26;
+}
+
+.highlight {
+  color: gold;
+}
+
+.recentWeatherDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1.5;
+  padding: 0 20px;
+}
+
+.recentWeatherInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.recentTemp {
+  margin-left: 10px;
+  min-width: 80px;
+}
+
+.recentTempValue {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.recentTempUnit {
+  font-size: 15px;
+  margin-left: 6px;
+  color: #ffffffba;
+}
+
+.recentText {
+  margin-left: 15px;
+  font-size: 16px;
+  color: #ffffffd1;
+}
+
+.recentWeatherIcon {
+  width: 65px;
+  object-fit: contain;
+}
+
+.recentHeart {
+  width: 18px;
+  cursor: pointer;
+}
+
+.emptyState {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 18px;
+}
+
+.emptyIcon {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .recentCityName {
+    font-size: 14px;
+  }
+
+  .recentWeatherDetails {
+    display: flex;
+    align-items: center;
+    flex: 1.5;
+  }
+
+  .recentWeatherIcon {
+    width: 45px;
+  }
+
+  .recentWeatherInfo {
+    gap: 7px;
+  }
+
+  .recentTempValue {
+    font-size: 25px;
+  }
+
+  .recentTempUnit {
+    font-size: 12px;
+  }
+
+  .recentText {
+    margin-left: 0px;
+  }
+
+  .recentHeart {
+    width: 18px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}

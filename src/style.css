@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../src/assets/images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.app {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+/* :root {
+  --white: #ffffff;
+  --yellow: #ffd639;
+  --red: #e32843;
+  --blueGrey: #75889f;
+  --purple: rgba(136, 81, 204, 0.68);
+  --grey: rgba(255, 255, 255, 0.184);
+}
+
+.App {
+  min-height: 100vh;
+} */
