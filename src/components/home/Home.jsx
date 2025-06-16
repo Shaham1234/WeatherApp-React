@@ -100,7 +100,9 @@ function Home() {
               />
               <div className="weatherTemperature">
                 <div className="weatherTemperatureDegree">
-                  {selectedUnit === "C" ? data.temp_c : data.temp_f}
+                  {selectedUnit === "C"
+                    ? Math.round(data.temp_c)
+                    : Math.round(data.temp_f)}
                 </div>
                 <div className="weatherTemperatureUnit">
                   <button

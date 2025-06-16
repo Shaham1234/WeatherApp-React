@@ -30,7 +30,7 @@
 }
 
 .weatherIcon {
-  margin-left: 70px;
+  margin-left: 40px;
   width: 100px;
   height: 100px;
   object-fit: contain;
@@ -48,7 +48,7 @@
   font-size: 75px;
   font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 90px;
+  width: 40px;
 }
 
 .weatherTemperatureUnit {
@@ -195,7 +195,7 @@
 }
 
 .weatherTemperatureDegree {
-  width: 90px;
+  width: 40px;
   text-align: right;
 }
 
